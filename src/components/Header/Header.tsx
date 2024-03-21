@@ -2,11 +2,11 @@ import React from "react";
 
 import "./Header.scss";
 
-const Header = () => {
+const Header = ({title}: {title: string}) => {
   return (
     <header className="header">
       <h2 className="header__message">
-        Dashboard
+        {title}
       </h2>
     </header>
   );

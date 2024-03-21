@@ -1,15 +1,17 @@
 import React, { ReactElement } from "react";
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
-import DashboardContainer from "./modules/Dashboard/containers/DashboardContainer";
+import Registry from "./modules/Registry";
 
 const App = (): ReactElement => {
   return (
-    <main className="content">
-      <Routes>
-        <Route path="/" element={<DashboardContainer />} />
-      </Routes>
-    </main>
+    <BrowserRouter>
+      <main className="content">
+        <Routes>
+          <Route path="/" element={<Registry />} />
+        </Routes>
+      </main>
+    </BrowserRouter>
   );
 };
 
