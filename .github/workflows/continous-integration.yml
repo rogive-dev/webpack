@@ -31,3 +31,6 @@ jobs:
             echo "Coverage is below threshold"
             exit 1
           fi
+
+      - name: Build
+        run: npm run prod

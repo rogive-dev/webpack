@@ -6,7 +6,7 @@ const RegistryContainer = ():ReactElement => {
 
   return (
     <div className="container">
-      <Header title="Registro"/>
+      <Header title="Registros"/>
     </div>
   );
 };
