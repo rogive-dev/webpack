@@ -43,5 +43,4 @@ jobs:
           vercel_token: ${{ secrets.VERCEL_TOKEN }}
           vercel_project_id: ${{ secrets.VERCEL_PROJECT_ID }}
           vercel_scope: ${{ secrets.VERCEL_SCOPE }}
-          vercel_prod_alias: ${{ secrets.VERCEL_PROD_ALIAS }}
           vercel_git_branch: 'dev'
